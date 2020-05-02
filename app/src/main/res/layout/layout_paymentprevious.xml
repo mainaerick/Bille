@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1: "
+            style="@style/TextAppearance.AppCompat.SearchResult.Title"
+            android:id="@+id/showcount"
+            android:textColor="@color/colorGreydark"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/platenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KCA 199C - 50KSH"
+                style="@style/TextAppearance.AppCompat.SearchResult.Title"
+                android:textColor="@color/colorGreydark"
+                />
+            <TextView
+                android:id="@+id/sacconame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOPHA TRAVELLS"
+                style="@style/TextAppearance.AppCompat.SearchResult.Title"
+                android:textColor="@color/colorGreydark"
+                />
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_info_outline_black_24dp"
+            />
+    </LinearLayout>
+
+
+</FrameLayout>

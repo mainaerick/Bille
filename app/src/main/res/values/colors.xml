@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorGreywhite">#ececec</color>
+    <color name="colorGrey">#e2e2e2</color>
+    <color name="colorGreydark">#808080</color>
+    <color name="colorBlue">#0080ff</color>
+    <color name="colorSuccess">#00e673</color>
+    <color name="colorError">#FF0C27</color>
+
+
+<!--    Switch colors-->
+    <color name="blue">@color/colorBlue</color>
+    <color name="lightBlue">#ff6691c4</color>
+    <color name="lighterBlue">@color/colorGreydark</color>
+    <color name="controlBackground">@color/colorWhite</color>
+</resources>
